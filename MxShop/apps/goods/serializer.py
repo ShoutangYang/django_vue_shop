@@ -5,9 +5,22 @@ from rest_framework import  serializers
 from goods.models import Goods,GoodsCategory
 
 
+class CategorySerializer2(serializers.ModelSerializer):
+    """
+
+    """
+
+    class Meta:
+        model = GoodsCategory
+        # fields = fields = ('name', 'click_num', 'market_price', 'add_time')
+        fields = "__all__"
+
 
 class CategorySerializer(serializers.ModelSerializer):
-    """"""
+    """
+
+    """
+    sub_cat = CategorySerializer2(many=True)
     class Meta:
         model = GoodsCategory
         # fields = fields = ('name', 'click_num', 'market_price', 'add_time')

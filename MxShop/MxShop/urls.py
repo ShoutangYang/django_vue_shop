@@ -23,7 +23,7 @@ from rest_framework.documentation import include_docs_urls
 from rest_framework.routers import DefaultRouter
 
 
-from goods.views import  GoodsListView,GoodsListViewSet
+from goods.views import  GoodsListView,GoodsListViewSet,CategoryViewSet
 
 # goods_list = GoodsListViewSet.as_view({
 #     'get': 'list',
@@ -31,6 +31,7 @@ from goods.views import  GoodsListView,GoodsListViewSet
 # })
 router = DefaultRouter()
 router.register(r"goods",GoodsListViewSet)
+router.register(r'category',CategoryViewSet)
 
 urlpatterns = [
     path('admin/', admin.site.urls),

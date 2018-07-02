@@ -4,14 +4,14 @@ from django.http import Http404
 from rest_framework.views import APIView
 from rest_framework.response import Response
 from rest_framework import status
-from .serializer import GoodsSerializer
+from .serializer import GoodsSerializer,CategorySerializer
 from rest_framework import mixins,generics
 from rest_framework.pagination import PageNumberPagination
 from rest_framework import viewsets
 from django_filters.rest_framework import  DjangoFilterBackend
 from  rest_framework import filters
 
-from .models import Goods
+from .models import Goods,GoodsCategory
 from .filter import GoodsFilter
 # Create your views here.
 
@@ -25,6 +25,7 @@ class GoodstPagination(PageNumberPagination):
     page_size_query_param = 'page_size'
     page_query_param = 'p'
     max_page_size = 100
+
 
 
 
@@ -66,4 +67,11 @@ class GoodsListViewSet(mixins.ListModelMixin,viewsets.GenericViewSet):
     #       queryset=queryset.filter(shop_price__gt=int(price_min))
     #     return queryset
 
+class CategoryViewSet(mixins.ListModelMixin,viewsets.GenericViewSet):
+    """
+    List:
+        商品分类列表数据
+    """
+    queryset = GoodsCategory.objects.filter(category_type=1)
+    serializer_class = CategorySerializer
 

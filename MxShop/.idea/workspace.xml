@@ -17,13 +17,13 @@
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.68720376">
+    <splitter split-orientation="horizontal" split-proportion="0.5371248">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/MxShop/settings.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="621">
+                <state relative-caret-position="1045">
                   <caret line="56" column="21" selection-start-line="56" selection-start-column="21" selection-end-line="56" selection-end-column="21" />
                 </state>
               </provider>
@@ -41,8 +41,8 @@
           <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/apps/goods/views.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="448">
-                  <caret line="50" column="8" lean-forward="true" selection-start-line="50" selection-start-column="8" selection-end-line="50" selection-end-column="8" />
+                <state relative-caret-position="290">
+                  <caret line="74" column="59" selection-start-line="74" selection-start-column="59" selection-end-line="74" selection-end-column="59" />
                   <folding>
                     <element signature="e#0#35#0" expanded="true" />
                   </folding>
@@ -53,7 +53,7 @@
           <file leaf-file-name="manager.py" pinned="false" current-in-tab="false">
             <entry file="file://E:/virtualenv/VueShop/Lib/site-packages/django/db/models/manager.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="630">
+                <state relative-caret-position="248">
                   <caret line="193" selection-start-line="193" selection-end-line="193" />
                 </state>
               </provider>
@@ -71,15 +71,27 @@
               </provider>
             </entry>
           </file>
+          <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/MxShop/urls.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="309">
+                  <caret line="44" column="50" lean-forward="true" selection-start-line="44" selection-start-column="50" selection-end-line="44" selection-end-column="50" />
+                  <folding>
+                    <element signature="e#630#662#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
         </leaf>
       </split-first>
       <split-second>
-        <leaf>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="serializer.py" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/apps/goods/serializer.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="114">
-                  <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+                <state relative-caret-position="209">
+                  <caret line="22" column="43" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="43" />
                   <folding>
                     <element signature="e#49#88#0" expanded="true" />
                   </folding>
@@ -116,11 +128,11 @@
         <option value="$PROJECT_DIR$/db_tools/import_category_data.py" />
         <option value="$PROJECT_DIR$/apps/goods/views_base.py" />
         <option value="$PROJECT_DIR$/apps/users/models.py" />
-        <option value="$PROJECT_DIR$/apps/goods/serializer.py" />
-        <option value="$PROJECT_DIR$/MxShop/urls.py" />
         <option value="$PROJECT_DIR$/MxShop/settings.py" />
         <option value="$PROJECT_DIR$/apps/goods/filter.py" />
+        <option value="$PROJECT_DIR$/MxShop/urls.py" />
         <option value="$PROJECT_DIR$/apps/goods/views.py" />
+        <option value="$PROJECT_DIR$/apps/goods/serializer.py" />
       </list>
     </option>
   </component>
@@ -134,10 +146,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1818" />
-    <option name="y" value="171" />
-    <option name="width" value="1034" />
-    <option name="height" value="1049" />
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1048" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -337,7 +349,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="163" width="1040" height="1256" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -347,19 +359,19 @@
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.32967034" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.4008208" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4989496" visible="true" weight="0.17578125" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.5700389" visible="true" weight="0.17578125" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="SciView" order="3" />
-      <window_info id="Structure" order="1" sideWeight="0.5010504" side_tool="true" visible="true" weight="0.17578125" />
+      <window_info id="Structure" order="1" sideWeight="0.4299611" side_tool="true" visible="true" weight="0.17578125" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.17000872" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.29685363" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="manage.py@MxShop" order="7" weight="0.34336525" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="manage.py@MxShop" order="7" weight="0.34336525" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Concurrent Activities Diagram" order="7" weight="0.32967034" />
@@ -385,12 +397,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/apps/goods/views.py</url>
-          <line>62</line>
+          <line>63</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/apps/goods/views.py</url>
-          <line>64</line>
+          <line>65</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
@@ -405,6 +417,16 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/apps/goods/serializer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="e#49#88#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/extr_apps/xadmin/views/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
@@ -416,9 +438,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5491">
           <caret line="315" selection-start-line="315" selection-end-line="315" />
-          <folding>
-            <element signature="e#0#24#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -582,9 +601,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-19">
           <caret line="282" selection-start-line="282" selection-end-line="282" />
-          <folding>
-            <element signature="e#0#24#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -678,30 +694,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://E:/virtualenv/VueShop/Lib/site-packages/rest_framework/status.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/apps/users/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="494">
           <caret line="28" column="28" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MxShop/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="22" column="40" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/goods/serializer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-          <folding>
-            <element signature="e#49#88#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -751,16 +747,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://E:/virtualenv/VueShop/Lib/site-packages/django/db/models/manager.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="193" selection-start-line="193" selection-end-line="193" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MxShop/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
+        <state relative-caret-position="1045">
           <caret line="56" column="21" selection-start-line="56" selection-start-column="21" selection-end-line="56" selection-end-column="21" />
         </state>
       </provider>
@@ -782,12 +771,39 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://E:/virtualenv/VueShop/Lib/site-packages/django/db/models/manager.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="193" selection-start-line="193" selection-end-line="193" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MxShop/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="44" column="50" lean-forward="true" selection-start-line="44" selection-start-column="50" selection-end-line="44" selection-end-column="50" />
+          <folding>
+            <element signature="e#630#662#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/apps/goods/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="50" column="8" lean-forward="true" selection-start-line="50" selection-start-column="8" selection-end-line="50" selection-end-column="8" />
+        <state relative-caret-position="290">
+          <caret line="74" column="59" selection-start-line="74" selection-start-column="59" selection-end-line="74" selection-end-column="59" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/goods/serializer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="22" column="43" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="43" />
+          <folding>
+            <element signature="e#49#88#0" expanded="true" />
           </folding>
         </state>
       </provider>
