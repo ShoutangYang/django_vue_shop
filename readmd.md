@@ -33,3 +33,12 @@
 
 # API VIEW
 -  django  实现restapi
+
+
+# genericViewSet
+- GenericAPIView   -drf
+- APIView           -drf
+- View              -django
+
+# Mixins.py
+
