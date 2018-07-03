@@ -60,6 +60,7 @@ class GoodsListViewSet(mixins.ListModelMixin,viewsets.GenericViewSet):
     filter_class = GoodsFilter
     search_fields = ('name','goods_brief','goods_desc')
     ordering_fields = ('shop_price','sold_num')
+
     # def get_queryset(self):
     #     queryset = Goods.objects.all()
     #     price_min = self.request.query_params.get('price_min',0)
@@ -67,7 +68,7 @@ class GoodsListViewSet(mixins.ListModelMixin,viewsets.GenericViewSet):
     #       queryset=queryset.filter(shop_price__gt=int(price_min))
     #     return queryset
 
-class CategoryViewSet(mixins.ListModelMixin,viewsets.GenericViewSet):
+class CategoryViewSet(mixins.ListModelMixin,mixins.RetrieveModelMixin,viewsets.GenericViewSet):
     """
     List:
         商品分类列表数据
