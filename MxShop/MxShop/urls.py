@@ -31,7 +31,7 @@ from goods.views import  GoodsListView,GoodsListViewSet,CategoryViewSet
 # })
 router = DefaultRouter()
 router.register(r"goods",GoodsListViewSet)
-router.register(r'category',CategoryViewSet)
+router.register(r'categorys',CategoryViewSet)
 
 urlpatterns = [
     path('admin/', admin.site.urls),
