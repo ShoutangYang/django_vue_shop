@@ -22,8 +22,8 @@ class BaseSetting(object):
 
 
 class GlobalSettings(object):
-    site_title = "慕学生鲜后台"
-    site_footer = "mxshop"
+    site_title = "生鲜后台"
+    site_footer = "Shop"
     # menu_style = "accordion"
 
 

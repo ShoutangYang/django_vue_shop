@@ -21,9 +21,9 @@ class GoodstPagination(PageNumberPagination):
     - 设置分页属性
     -
     """
-    page_size = 10
+    page_size = 12
     page_size_query_param = 'page_size'
-    page_query_param = 'p'
+    page_query_param = 'page'
     max_page_size = 100
 
 

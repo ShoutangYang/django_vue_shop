@@ -40,5 +40,10 @@
 - APIView           -drf
 - View              -django
 
-# Mixins.py
+# Mixins.py=- ss
+- 详情页
 
+
+# 跨域问题
+- 服务器端跨域问题
+- 
