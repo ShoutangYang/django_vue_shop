@@ -56,6 +56,9 @@ INSTALLED_APPS = [
     'rest_framework',
     'django_filters',
     'corsheaders',
+    'rest_framework.authtoken',
+
+
 ]
 
 
@@ -169,3 +172,15 @@ MEDIA_ROOT = os.path.join(BASE_DIR,'media')
 #     'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.PageNumberPagination',
 #     'PAGE_SIZE':10,
 # }
+
+REST_FRAMEWORK = {
+    'DEFAULT_AUTHENTICATION_CLASSES': (
+        'rest_framework_jwt.authentication.JSONWebTokenAuthentication',
+        'rest_framework.authentication.BasicAuthentication',
+        'rest_framework.authentication.SessionAuthentication',
+
+    )
+}
+
+REGEX_MOBILE = "^1[358]\d{9}$|^147\d{8}$|^176\d{8}$|^186\d{8}$"
+API_KEY = "18a39ccdf3c590373d2f5dc8571a3a34"

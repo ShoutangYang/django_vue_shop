@@ -16,7 +16,7 @@ class UserProfile(AbstractUser):
 
     birthday = models.DateField(null=True,blank=True,verbose_name='出生年月')
 
-    mobile = models.CharField(max_length =11,verbose_name='电话')
+    mobile = models.CharField(null=True,max_length =11,verbose_name='电话',blank=True)
     gender = models.CharField(max_length=6,choices=(('male',u'男'),('female','女')),default='female',verbose_name='性别')
     email = models.CharField(max_length =100,null =  True,blank=True,verbose_name='邮箱')
 
@@ -50,4 +50,5 @@ class VerifyCode(models.Model):
     def __str__(self):
         return self.code
 
-            
+
+

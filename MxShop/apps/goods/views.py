@@ -45,7 +45,7 @@ class GoodsListView(generics.ListAPIView):
     serializer_class = GoodsSerializer
     pagination_class = GoodstPagination
 
-class GoodsListViewSet(mixins.ListModelMixin,viewsets.GenericViewSet):
+class GoodsListViewSet(mixins.ListModelMixin,viewsets.GenericViewSet,mixins.RetrieveModelMixin):
     """
     商品列表页
     - 分页

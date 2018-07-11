@@ -46,4 +46,14 @@
 
 # 跨域问题
 - 服务器端跨域问题
-- 
+
+
+# token 
+
+#  前后端 认证：
+JWT 认证
+
+## token 
+- token  :前端登陆，后端生成一个token
+
+# django - rest-framework-jwt

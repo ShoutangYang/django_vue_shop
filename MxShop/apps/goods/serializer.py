@@ -2,7 +2,7 @@
 __author__ = 'Tony.Yang'
 
 from rest_framework import  serializers
-from goods.models import Goods,GoodsCategory
+from goods.models import Goods,GoodsCategory,GoodsImage
 
 
 class CategorySerializer3(serializers.ModelSerializer):
@@ -35,6 +35,13 @@ class CategorySerializer(serializers.ModelSerializer):
         # fields = fields = ('name', 'click_num', 'market_price', 'add_time')
         fields = "__all__"
 
+
+class GoodsImageSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = GoodsImage
+        fields = ("image",)
+
+
 class GoodsSerializer(serializers.ModelSerializer):
     # name = serializers.CharField(required=True,max_length=100)
     # click_num = serializers.IntegerField(required=False,default=0)
@@ -49,6 +56,8 @@ class GoodsSerializer(serializers.ModelSerializer):
     #     return Goods.objects.create(**validated_data)
 
     category = CategorySerializer()
+    images = GoodsImageSerializer(many=True)
+
     class Meta:
         model = Goods
         # fields = fields = ('name', 'click_num', 'market_price', 'add_time')
