@@ -10,6 +10,7 @@ from rest_framework.pagination import PageNumberPagination
 from rest_framework import viewsets
 from django_filters.rest_framework import  DjangoFilterBackend
 from  rest_framework import filters
+from  rest_framework.authentication import TokenAuthentication
 
 from .models import Goods,GoodsCategory
 from .filter import GoodsFilter
@@ -60,6 +61,7 @@ class GoodsListViewSet(mixins.ListModelMixin,viewsets.GenericViewSet):
     filter_class = GoodsFilter
     search_fields = ('name','goods_brief','goods_desc')
     ordering_fields = ('shop_price','sold_num')
+    authentication_classes = (TokenAuthentication,)
 
     # def get_queryset(self):
     #     queryset = Goods.objects.all()
